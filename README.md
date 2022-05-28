@@ -1,10 +1,9 @@
-
-
+# Seoul Public WiFi Finder
 ## [Live Demo](https://hanjoon.dev/seoul-wifi) Environment
 * VM: Google Cloud Platform (n2-standard-2)
-* OS: Ubuntu 22.04 LTS (kernel Linux 5.15.0-1005-gcp)
-* Web Server/JSP container: Apache Tomcat/9.0.58 (Ubuntu)
-* CI/CD: Jenkins 2.332.3 (running on OpenJDK 11.0.15+10-Ubuntu-0ubuntu0.22.04.1)
+* OS: Ubuntu 22.04 LTS
+* Web Server/JSP container: Apache Tomcat/10.1.0-M15
+* CI/CD: Jenkins 2.332.3
 
 ## Development Environment
 * Editor: VS Code 1.68.0-insider w/ Remote - SSH extension
