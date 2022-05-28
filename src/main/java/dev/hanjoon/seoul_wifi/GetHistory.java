@@ -22,9 +22,7 @@ public class GetHistory extends HttpServlet {
         try {
             HotspotDao hotspotDao = new HotspotDao();
             hotspotDao.delete(Integer.parseInt(id));
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-        }
+        } catch (NumberFormatException e) { }
         HotspotDao hotspotDao = new HotspotDao();
         Hotspot[] histories = hotspotDao.history();
         request.setAttribute("histories", histories);
