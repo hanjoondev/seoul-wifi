@@ -9,15 +9,15 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
     <servlet-name>FindNearestHotspots</servlet-name>
-    <servlet-class>dev.hanjoon.seoul_wifi.FindNearestHotspots</servlet-class>
+    <servlet-class>dev.hanjoon.seoulwifi.FindNearestHotspots</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>GetHistory</servlet-name>
-    <servlet-class>dev.hanjoon.seoul_wifi.GetHistory</servlet-class>
+    <servlet-class>dev.hanjoon.seoulwifi.GetHistory</servlet-class>
   </servlet>
   <servlet>
     <servlet-name>Update</servlet-name>
-    <servlet-class>dev.hanjoon.seoul_wifi.Update</servlet-class>
+    <servlet-class>dev.hanjoon.seoulwifi.Update</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>FindNearestHotspots</servlet-name>

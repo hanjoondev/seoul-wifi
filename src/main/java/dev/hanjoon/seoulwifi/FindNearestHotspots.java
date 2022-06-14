@@ -1,4 +1,4 @@
-package dev.hanjoon.seoul_wifi;
+package dev.hanjoon.seoulwifi;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;

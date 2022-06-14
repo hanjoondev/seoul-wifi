@@ -1,4 +1,4 @@
-package dev.hanjoon.seoul_wifi;
+package dev.hanjoon.seoulwifi;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -26,6 +26,7 @@ public class DbUtil {
         s.executeUpdate(getCreateTableHotspotQuery());
         s.executeUpdate(getCreateTableHistoryQuery());
         c.commit();
+        c.setAutoCommit(true);
         s.close();
         c.close();
     }

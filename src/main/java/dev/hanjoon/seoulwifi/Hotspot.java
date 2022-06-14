@@ -1,4 +1,4 @@
-package dev.hanjoon.seoul_wifi;
+package dev.hanjoon.seoulwifi;
 
 public class Hotspot {
     private int id;

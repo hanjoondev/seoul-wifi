@@ -1,4 +1,4 @@
-package dev.hanjoon.seoul_wifi;
+package dev.hanjoon.seoulwifi;
 
 import javax.naming.NamingException;
 import java.io.IOException;

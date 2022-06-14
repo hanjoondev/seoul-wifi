@@ -1,4 +1,4 @@
-package dev.hanjoon.seoul_wifi;
+package dev.hanjoon.seoulwifi;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
